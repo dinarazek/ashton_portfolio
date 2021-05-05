@@ -1,0 +1,4 @@
+Citations:
+- Used to get Playfair Display font: https://www.cssfontstack.com/Playfair-Display
+- How to change Bootstrap Navbar height: https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height
+

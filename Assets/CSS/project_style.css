@@ -1,0 +1,81 @@
+.site_title {
+    font-family: "Playfair Display";
+    /*font-size: 60px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.nav_buttons {
+    font-family: "Playfair Display";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: "Playfair Display";
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "Playfair Display";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.6px;
+}
+
+.centered_title {
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 80px;
+}
+
+.navbar {
+    min-height: 80px;
+    background-color: black;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+/*!* modified from https://www.codeply.com/go/qhaBrcWp3v *!*/
+/*@media (min-width: 1000px) {*/
+/*.navbar-brand.abs*/
+/*    {*/
+/*        position: absolute;*/
+/*        width: 100%;*/
+/*        left: 0;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
