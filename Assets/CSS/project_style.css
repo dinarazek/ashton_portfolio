@@ -1,6 +1,25 @@
+/* adds background image to the html pages behind content */
+/* source: https://css-tricks.com/perfect-full-page-background-image/ */
+/*html {*/
+/*  background: url(../images/camera_background.png) no-repeat center center fixed;*/
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+/*  background-size: cover;*/
+/*}*/
+
 .site_title {
     font-family: "Playfair Display";
     /*font-size: 60px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.project_browse_title {
+    font-family: "Playfair Display";
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -34,9 +53,9 @@ blockquote {
     line-height: 30px;
 }
 
-pre {
+.project_browse_number {
     font-family: "Playfair Display";
-    font-size: 13px;
+    font-size: 20px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -49,7 +68,7 @@ pre {
 
 .navbar .navbar-brand {
     color: white;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .navbar {
@@ -58,9 +77,9 @@ pre {
 }
 
 .navbar-brand {
-  padding: 0 15px;
-  height: 80px;
-  line-height: 80px;
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
 }
 
 .navbar-toggle {

@@ -1,4 +1,4 @@
 Citations:
 - Used to get Playfair Display font: https://www.cssfontstack.com/Playfair-Display
 - How to change Bootstrap Navbar height: https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height
-
+- Used to learn how to add a background image behind the entire site: https://css-tricks.com/perfect-full-page-background-image/
