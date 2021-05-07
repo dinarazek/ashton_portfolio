@@ -3,3 +3,5 @@ Citations:
 - How to change Bootstrap Navbar height: https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height
 - Used to learn how to add a background image behind the entire site: https://css-tricks.com/perfect-full-page-background-image/
 - Used to create fixed navigation bar: https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+- Used for CSS animations: http://www.justinaguilar.com/animations/index.html#
+- For all Bootstrap syntax and learning (full series): https://getbootstrap.com/docs/4.0/getting-started/introduction/
