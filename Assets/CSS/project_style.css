@@ -1,12 +1,13 @@
 /* adds background image to the html pages behind content */
-/* source: https://css-tricks.com/perfect-full-page-background-image/ */
-/*html {*/
-/*  background: url(../images/camera_background.png) no-repeat center center fixed;*/
-/*  -webkit-background-size: cover;*/
-/*  -moz-background-size: cover;*/
-/*  -o-background-size: cover;*/
-/*  background-size: cover;*/
-/*}*/
+/* modified from: https://css-tricks.com/perfect-full-page-background-image/ */
+.fixed_background {
+    background: url(../images/camera_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
 
 .site_title {
     font-family: "Playfair Display";
@@ -23,7 +24,9 @@
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 26.4px;
+    line-height: 40px;
+    text-align: center;
+    justify-items: center;
 }
 
 .nav_buttons {
@@ -87,14 +90,3 @@ blockquote {
   margin-top: 23px;
   padding: 9px 10px !important;
 }
-
-/*!* modified from https://www.codeply.com/go/qhaBrcWp3v *!*/
-/*@media (min-width: 1000px) {*/
-/*.navbar-brand.abs*/
-/*    {*/
-/*        position: absolute;*/
-/*        width: 100%;*/
-/*        left: 0;*/
-/*        text-align: center;*/
-/*    }*/
-/*}*/

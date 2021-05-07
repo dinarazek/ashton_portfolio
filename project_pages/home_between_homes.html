@@ -1,10 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="../Assets/CSS/animations.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../Assets/CSS/project_style.css">
+    <!-- Playfair Font Family -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+    <!-- My JS -->
+    <script src="../Assets/JS/project_browse.js"></script>
+    <title>Ashton Jones</title>
 </head>
 <body>
+    <!-- navigation bar -->
+    <nav class="navbar py-3 py-lg-3 navbar-expand-xl fixed-top navbar-dark bg-dark">
+        <br>
+        <!-- Site logo/brand -->
+        <a class="navbar-brand site_title" href="#">ASHTON JONES</a>
+        <br>
+        <!-- collapsed navigation bar button, visible on smaller screen widths -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation bar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav_buttons" href="../index.html">ABOUT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link nav_buttons" href="../project_browse.html">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav_buttons" href="../contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <div class="container-fluid fixed_background">
+        <!-- main large image -->
+        <div class="row form-group">
+            <img src="../Assets/images/project_browse_photos_horizontal_long/home_between_homes.png" class="img-fluid" alt="woman leaning over ledge with multi-colored butterflies, indoor">
+        </div>
+        <!-- jumbotron with project description -->
+        <div class="row form-group">
+            <div class="col-2"></div>
+            <div class="col-sm">
+                <div class="jumbotron jumbotron-fluid rounded">
+                    <div class="container">
+                        <h1 class="display-4 text-center project_browse_title">HOME IN BETWEEN HOMES</h1>
+                        <br>
+                        <p class="lead">This project focuses on my temporary home. The early 20s poses a lot of uncertainty. One has to leave home to start his or her own life and go through a period of self discovery. During this period one stays in a house in which one knows he or she won't be in long. I wanted to document this state by photographing my relationships with the others in the house and our relationships with the house.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <!-- four photos grouped -->
+        <div class="row form-group">
+            <div class="col-1"></div>
+            <div class="col-sm">
+                <img src="../Assets/images/home_between_homes/grouped.png" class="img-fluid" alt="four photos of home">
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <!-- two side by side photos -->
+        <div class="row form-group">
+            <div class="col-2"></div>
+            <div class="col-sm">
+                <img src="../Assets/images/home_between_homes/vert_1.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-1"></div>
+            <div class="col-sm">
+                <img src="../Assets/images/home_between_homes/vert_2.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row form-group">
+            <div class="col-1"></div>
+            <div class="col-sm">
+                <img src="../Assets/images/home_between_homes/horizontal.png" class="img-fluid" alt="photo of photo">
+            </div>
+            <div class="col-1"></div>
+        </div>
 
-</body>
+        <!-- two side by side photos -->
+<!--        <div class="row">-->
+<!--            <img src="../Assets/images/home_between_homes/vert_3.png" class="rounded float-left" alt="...">-->
+<!--            <img src="../Assets/images/home_between_homes/vert_4.png" class="rounded float-right" alt="...">-->
+<!--        </div>-->
+        <!-- project browse section -->
+        <div class="row">
+            <!-- creates white space on left side -->
+            <div class="col-1"></div>
+            <!-- project browse photo carousel -->
+            <div class="col-sm">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <!-- creates indicators on bottom -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <!-- each image, browse number, and project title in carousel-->
+                    <div class="carousel-inner">
+                        <!-- active class added because it is the starting item -->
+                        <div class="carousel-item active" id="texas_carousel" onmousedown="pulse('texas_carousel')">
+                            <a href="texas.html">
+                                <img class="d-block w-100" src="../Assets/images/project_browse_photos/texas.png" alt="man standing with surfboard in hand, in front of beach">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="project_browse_number">1/5</p>
+                                    <h5 class="project_browse_title">TEXAS</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" id="portraits_carousel" onmousedown="pulse('portraits_carousel')">
+                            <a href="portraits.html">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="project_browse_number">2/5</p>
+                                    <h5 class="project_browse_title">PORTRAITS</h5>
+                                </div>
+                                <img class="d-block w-100" src="../Assets/images/project_browse_photos/portraits.png" alt="man standing with surfboard in hand, in front of beach">
+                            </a>
+                        </div>
+                        <div class="carousel-item" id="role_reversal_carousel" onmousedown="pulse('role_reversal_carousel')">
+                            <a href="role_reversal.html">
+                                <img class="d-block w-100" src="../Assets/images/project_browse_photos/role_reversal.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="project_browse_number">3/5</p>
+                                    <h5 class="project_browse_title">ROLE REVERSAL</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" id="home_between_homes_carousel" onmousedown="pulse('home_between_homes_carousel')">
+                            <a href="home_between_homes.html">
+                                <img class="d-block w-100" src="../Assets/images/project_browse_photos/home_between_homes.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="project_browse_number">4/5</p>
+                                    <h5 class="project_browse_title">HOME IN BETWEEN HOMES</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" id="louiseville_ky_carousel" onmousedown="pulse('louiseville_ky_carousel')">
+                            <a href="louiseville_ky.html">
+                                <img class="d-block w-100" src="../Assets/images/project_browse_photos/louiseville.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="project_browse_number">5/5</p>
+                                    <h5 class="project_browse_title">LOUISEVILLE, KY</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- carousel buttons to toggle previous and next images -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!-- creates white space on right side -->
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
