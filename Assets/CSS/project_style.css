@@ -9,6 +9,7 @@
     z-index: -1;
 }
 
+/* font sizing and style classes */
 .site_title {
     font-family: "Playfair Display";
     /*font-size: 60px;*/
@@ -76,28 +77,26 @@ blockquote {
     line-height: 18.6px;
 }
 
+/* text centering class */
 .centered_title {
     text-align: center;
 }
 
+/* navigation bar logo font sizing and color */
 .navbar .navbar-brand {
     color: white;
     font-size: 48px;
 }
 
+/* navigation bar background color and thickness*/
 .navbar {
     min-height: 80px;
     background-color: black;
 }
 
+/* navigation bar logo padding and line height */
 .navbar-brand {
     padding: 0 15px;
     height: 80px;
     line-height: 80px;
-}
-
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important;
 }
