@@ -20,7 +20,18 @@
 
 .project_browse_title {
     font-family: "Playfair Display";
-    font-size: 50px;
+    font-size: 45px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    justify-items: center;
+}
+
+.project_detail_title {
+    font-family: "Playfair Display";
+    font-size: 55px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -71,7 +82,7 @@ blockquote {
 
 .navbar .navbar-brand {
     color: white;
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .navbar {
